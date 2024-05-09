@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rat-the-rat",
+	"version": "${version}",
+	"name": "'Rat' the Rat",
+	"description": "This mod adds rats:)",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rat-the-rat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.merian.rattherat.RatTheRat"
+		],
+		"client": [
+			"net.merian.rattherat.RatTheRatClient"
+		],
+		"fabric-datagen": [
+			"net.merian.rattherat.RatTheRatDataGenerator"
+		]
+	},
+	"mixins": [
+		"rat-the-rat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
