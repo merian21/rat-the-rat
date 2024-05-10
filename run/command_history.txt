@@ -1,0 +1,17 @@
+/summon
+/summon rat-the-rat:rat
+/time set day
+/summon rat-the-rat:rat
+/summon rat-the-rat:rat 2103.47 103.64 2914.88
+/summon rat-the-rat:rat
+/time set day
+/summon rat-the-rat:rat
+/time set day
+/summon rat-the-rat:rat
+/weather clear
+/summon rat-the-rat:rat
+/weather clear
+/time set day
+/summon rat-the-rat:rat
+/summon minecraft:dolphin
+/summon rat-the-rat:rat

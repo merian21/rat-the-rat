@@ -124,7 +124,7 @@ key_key.hotbar.9:key.keyboard.9
 soundCategory_master:0.14284328435430463
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.07890441607981218
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
