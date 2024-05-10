@@ -15,3 +15,13 @@
 /summon rat-the-rat:rat
 /summon minecraft:dolphin
 /summon rat-the-rat:rat
+/time set day
+/gamemode survival
+/gamemode creative
+/summon rat-the-rat:rat
+/time set day
+/gamemode s
+/gamemode survival
+/summon rat-the-rat:rat
+/gamemode creative
+/summon rat-the-rat:rat

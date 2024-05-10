@@ -14,5 +14,5 @@ public class ModEntities {
 
     public static final EntityType<RatEntity> RAT = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(RatTheRat.MOD_ID, "rat"), FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, RatEntity::new)
-                    .dimensions(EntityDimensions.fixed(1f, 1f)).build());
+                    .dimensions(EntityDimensions.fixed(0.5f, 0.5f)).build());
 }
