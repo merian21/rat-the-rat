@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item CHEESE = registerItem("cheese", new Item(new Item.Settings()));
+    public static final Item CHEESE = registerItem("cheese", new Item(new Item.Settings().food(ModFoodComponent.CHEESE)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(CHEESE);
