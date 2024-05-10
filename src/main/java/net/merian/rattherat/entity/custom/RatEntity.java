@@ -1,6 +1,7 @@
 package net.merian.rattherat.entity.custom;
 
 import net.merian.rattherat.entity.ModEntities;
+import net.merian.rattherat.item.ModItems;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.*;
@@ -31,10 +32,9 @@ public class RatEntity extends AnimalEntity {
         this.goalSelector.add(1, new SwimGoal(this));
         this.goalSelector.add(2, new FleeEntityGoal<>(this, PlayerEntity.class, 10f, 0.8, 1.33));
         this.goalSelector.add(3, new AnimalMateGoal(this, 0.6));
-        this.goalSelector.add(4, new TemptGoal(this, 0.6, Ingredient.ofItems(Items.BEETROOT), false));
+        this.goalSelector.add(4, new TemptGoal(this, 0.6, Ingredient.ofItems(ModItems.CHEESE), false));
         this.goalSelector.add(6, new LookAroundGoal(this));
         this.goalSelector.add(5, new WanderAroundFarGoal(this, 0.6));
-
 
 
     }
