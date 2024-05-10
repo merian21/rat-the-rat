@@ -72,7 +72,7 @@ public class RatEntity extends AnimalEntity {
 
     @Override
     public boolean isBreedingItem(ItemStack stack) {
-        return stack.isOf(Items.BEETROOT);
+        return stack.isOf(ModItems.CHEESE);
     }
 }
 

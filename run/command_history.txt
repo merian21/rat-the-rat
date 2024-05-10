@@ -25,3 +25,6 @@
 /summon rat-the-rat:rat
 /gamemode creative
 /summon rat-the-rat:rat
+/gamemode sur
+/gamemode survival
+/gamemode creative
