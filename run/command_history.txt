@@ -33,3 +33,8 @@
 /gamemode creative
 /gamemode surv
 /gamemode survival
+/gamemode creative
+/gamemode survival
+/time set da
+/time set day
+/weather clear
