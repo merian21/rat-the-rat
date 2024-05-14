@@ -32,16 +32,21 @@ public class CheeseBlock extends Block {
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         if (!world.isClient) {
-            int bites = state.get(SLICE);
-            if (bites < 4) {
-                world.setBlockState(pos, state.with(SLICE, bites + 1), 4);
-                return ActionResult.SUCCESS;
-            } else {
-                world.removeBlock(pos, false);
+            // Check if the player is hungry
+            if (player.getHungerManager().isNotFull()) {
+                // Add food level and saturation
+                player.getHungerManager().add(2, 0.3f); // Adjust these values as needed
+
+                int bites = state.get(SLICE);
+                if (bites < 4) {
+                    world.setBlockState(pos, state.with(SLICE, bites + 1), 3);
+                } else {
+                    world.removeBlock(pos, false);
+                }
                 return ActionResult.SUCCESS;
             }
         }
-        return ActionResult.CONSUME;
+        return ActionResult.PASS;
     }
 
 }
