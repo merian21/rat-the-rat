@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "slice=1": { "model": "rat-the-rat:block/cheese_full" },
+    "slice=2": { "model": "rat-the-rat:block/cheese_three_quarters" },
+    "slice=3": { "model": "rat-the-rat:block/cheese_half" },
+    "slice=4": { "model": "rat-the-rat:block/cheese_one_quarter" }
+  }
+}

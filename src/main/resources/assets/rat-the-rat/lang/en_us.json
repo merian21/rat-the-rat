@@ -1,3 +1,5 @@
 {
-  "item.rat-the-rat.cheese": "Cheese"
+  "item.rat-the-rat.cheese": "Cheese",
+  "item.rat-the-rat.cheese_block": "Cheese Block",
+  "block.rat-the-rat.cheese_block": "Cheese Block"
 }
